@@ -1,0 +1,199 @@
+/* Apply a background image to the body */
+body {
+    background: rgba(255, 255, 255, 0.5) url('Background\ \(2\).jpg') no-repeat center center;
+    background-size: cover; /* Ensure the background image covers the entire page */
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif; /* Use a modern font */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Container for logo and title */
+#logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+}
+
+/* Style for the logo image */
+#logo {
+    height: 80px;
+    width: 80px; /* Adjust the height as needed */
+    position: relative;
+    top: -20px; 
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the site title */
+#site-title {
+    font-size: 1em;
+    margin: 5px 0 0 0;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(129, 36, 167, 0.1); /* Subtle shadow for better readability */
+    display: block;
+    position: relative;
+    top: -40px; /* Adjust this value to move the text up or down */
+    text-align: center; 
+}
+
+/* Style for the navigation menu */
+#menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menu ul li {
+    margin-left: 20px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+#menu ul li a:hover {
+    color: #007BFF; /* Change color on hover */
+}
+
+/* Style for the introductory section */
+#home {
+    padding: 30px;
+    margin: 100px auto;
+    text-align: center;
+    max-width: 800px; /* Limit the width for better readability */
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#home p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style for the section divider */
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin: 50px 0;
+}
+
+/* Style for the funny intro section */
+#funny-intro {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background for readability */
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px; /* Limit the width for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#funny-intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#funny-intro p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Style for the polaroid section */
+#polaroids {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.polaroid {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.polaroid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.polaroid p {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Add a hover effect to the polaroid */
+.polaroid:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the contact section */
+#contact {
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+    max-width: 800px; /* Limit the width for better readability */
+    color: white; /* Change font color to white */
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white; /* Change font color to white */
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: white; /* Change font color to white */
+    line-height: 1.6;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul li {
+    font-size: 1.2em;
+    color: white; /* Change font color to white */
+    margin: 10px 0;
+}
+
+#contact ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact ul li a:hover {
+    text-decoration: underline;
+}
